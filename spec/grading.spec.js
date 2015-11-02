@@ -6,7 +6,7 @@ describe('Grading', function() {
     expect(grade.letterGrader(80)).toEqual('B');
     expect(grade.letterGrader(70)).toEqual('C');
     expect(grade.letterGrader(60)).toEqual('D');
-    expect(grade.letterGrader(59)).toEqual('E');
+    expect(grade.letterGrader(59)).toEqual('F');
     expect(grade.letterGrader(101)).toEqual('Please enter a grade from 0 to 100');
     expect(grade.letterGrader(-1)).toEqual('Please enter a grade from 0 to 100');
   });

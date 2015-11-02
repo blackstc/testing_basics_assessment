@@ -15,7 +15,7 @@ function letterGrader(grade) {
     case grade >= 60:
       return 'D';
     case grade >= 0:
-      return 'E';
+      return 'F';
     default:
       return 'Please enter a grade';
     }
